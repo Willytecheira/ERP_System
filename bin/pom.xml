@@ -17,8 +17,7 @@
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
-            <version>5.5.2</version>
-            <scope>compile</scope>
+            <version>5.5.1</version>
         </dependency>
     </dependencies>
 

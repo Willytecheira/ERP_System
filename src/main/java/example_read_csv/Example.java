@@ -14,7 +14,7 @@ public class Example {
 
     public static void main(String[] args) throws IOException {
 
-        String fileName = "C:\\data\\Products.csv";
+        String fileName = ("/Users/data/Products.csv");
 
         try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
             List<String[]> r = reader.readAll();
